@@ -53,6 +53,29 @@ $(document).ready(function() {
 	//para que se valla moviendo cada vesz que tecleo una tecla
 	$(document).keydown(function() {
 		//se deben utilizar las comillas doble
-		$('.keydown').animate({"right":"+=10px"}, '1000');
+		$('.keydown').animate({"left":"+=10px"}, '1000');
 	});
+
+	//el parametro key ayudara a jQuery que sepa
+	//cual fue la tecla que se presionó
+	//hay que tener encuenta position: relative top and left in 0px
+	 $(document).keydown(function(key) {
+        switch(parseInt(key.which,10)) {
+			case 65:
+				$('img').animate({left: "-=10px"}, 'fast'); 
+				break;
+			case 83:
+				$('img').animate({top: "+=10px"},'fast');
+				break;
+			case 87:
+				$('img').animate({top: "-=10px"},'fast');
+				break;
+			case 68:
+				$('img').animate({left: "+=10px"},'fast');
+				break;
+			default:
+				break;
+		}
+	});
+
 });
