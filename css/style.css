@@ -1,0 +1,30 @@
+div{
+	width: 350px;
+	height: 350px;
+	background-color: yellow;
+	display:inline-block;
+}
+img{
+	height: 100px;
+	width: 350px;
+	border: 2px solid #5264a3;
+
+}
+#izquierda{
+border: dashed;
+border-radius: 12px;
+
+}
+#imagen{		
+	display: none;
+}
+#clic{
+	background-color:green;	
+	position: relative;
+}
+.esfera{
+	height: 100px;
+	width: 100px;
+	background-color: red;
+	border-radius: 100%;
+}

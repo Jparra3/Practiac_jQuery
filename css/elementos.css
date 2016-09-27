@@ -1,0 +1,45 @@
+#title{
+		
+		background-color: green;
+		
+}
+div{
+		border-radius: 10px;
+		width:  200px;
+		height:  25px;
+		
+}
+#texto{
+	
+	background-color:blue;
+}
+.resaltar{	
+	width: 210px;
+	height: 35px;
+    cursor:pointer;
+}
+form{
+
+	display: inline-block;
+}
+#boton{
+	display: inline-block;
+	height: 20px;/*es alto*/
+	width: 70px;/*es ancho*/
+	background-color: #cc0000;
+	font-weight: bold;/*en negrilla*/
+	text-align: center;
+	cursor: pointer;	
+}
+#entrada{
+
+	text-align: center;
+}
+.keydown{
+	border-radius: 100%;
+	height: 100px;
+	width: 100px;
+	position: relative;
+	display: inline-block;
+	background-color: black;
+}
